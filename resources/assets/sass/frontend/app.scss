@@ -1,5 +1,11 @@
 // Fonts
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import "fonts/montserrat";
+
+$web-font-path: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" !default;
+@import url($web-font-path);
+
+
 
 // Variables
 @import "variables";
@@ -18,3 +24,9 @@
 
 // Pages
 @import "pages/dashboard";
+
+@import "footer/footer";
+@import "panels";
+@import "products/products";
+@import "homepage/homepage";
+

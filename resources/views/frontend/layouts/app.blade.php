@@ -32,8 +32,8 @@
             ]); ?>
         </script>
     </head>
-    <body id="app-layout">
-        <div id="app">
+    <body id="app-layout" class="home" style="background: linear-gradient(#7CB8E3, #D8E7F5);">
+        <div id="app" >
             @include('includes.partials.logged-in-as')
             @include('frontend.includes.nav')
 
@@ -41,6 +41,8 @@
                 @include('includes.partials.messages')
                 @yield('content')
             </div><!-- container -->
+
+            @include('frontend.includes.footer')
         </div><!--#app-->
 
         <!-- Scripts -->
