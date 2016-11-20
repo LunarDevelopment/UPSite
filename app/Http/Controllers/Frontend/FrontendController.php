@@ -29,7 +29,7 @@ class FrontendController extends Controller
         Debugbar::disable();
         Mail::send('emails.subscribe', ['email' => $request->email], function ($m) use ($request) {
             $m->from($request->email, 'Your Application');
-            $m->to('lewis@digital-picnic.email', 'lewis')->subject('new UP subscription!');
+            $m->to('adele@digital-picnic.email', 'lewis')->subject('New UP subscription!');
         });
         return redirect(route('frontend.index'))->withFlashSuccess('Thanks, we\'ll be in touch soon.');
 

@@ -9,9 +9,9 @@
         <div class="col-md-6 footer-social">
             <p>
                 <strong>Social:</strong><br>
-                <a href="#"><img class="social-icon" src="/img/website/twitter.svg"></a>
-                <a href="#"><img class="social-icon" src="/img/website/linkedin.svg"></a>
-                <a href="#"><img class="social-icon" src="/img/website/instagram.svg"></a>
+                <a href="#"><img class="social-icon" src="/img/website/Twitter.svg"></a>
+                <a href="#"><img class="social-icon" src="/img/website/Linkedin.svg"></a>
+                <a href="#"><img class="social-icon" src="/img/website/Instagram.svg"></a>
             </p>
         </div>
 
