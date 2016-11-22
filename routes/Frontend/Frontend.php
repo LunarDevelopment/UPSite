@@ -7,8 +7,10 @@
 Route::get('/', 'FrontendController@index')->name('index');
 Route::get('macros', 'FrontendController@macros')->name('macros');
 
-
 Route::post('subscribe', 'FrontendController@subscribe')->name('subscribe');
+
+Route::get('rollover', 'FrontendController@rollover')->name('rollover');
+Route::post('rollover', 'FrontendController@rollover')->name('rollover');
 
 /**
  * These frontend controllers require the user to be logged in
