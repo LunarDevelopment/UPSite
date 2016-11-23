@@ -9,8 +9,11 @@ Route::get('macros', 'FrontendController@macros')->name('macros');
 
 Route::post('subscribe', 'FrontendController@subscribe')->name('subscribe');
 
-Route::get('rollover', 'FrontendController@rollover')->name('rollover');
-Route::post('rollover', 'FrontendController@rollover')->name('rollover');
+Route::group(['namespace' => 'Promotions', 'as' => 'promos.'], function() {
+    /* Rollover promotion of companies who are paying too much from inactivity */
+    Route::get('rollover', 'PromotionsController@rollover')->name('rollover');
+    Route::post('rollover', 'PromotionsController@rolloverSubmit')->name('rollover.submit');
+});
 
 /**
  * These frontend controllers require the user to be logged in

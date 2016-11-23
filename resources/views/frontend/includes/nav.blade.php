@@ -4,7 +4,11 @@
             <ul class="nav navbar-nav">
                 <li>
                     {{--<a class="up-logo" href="/">--}}
-                        <img id="logo-navbar-middle" src="img/website/Utility-Picnic-Logo.png" width="200"
+                        <img id="logo-navbar-middle"
+                             src="img/website/Utility-Picnic-Logo.png"
+                             onmouseover="this.src='img/website/Utility-Picnic-Logo2.png'"
+                             onmouseout="this.src='img/website/Utility-Picnic-Logo.png'"
+                             width="200"
                              alt="Utility Picnic logo">
                     {{--</a>--}}
                 </li>

@@ -17,7 +17,6 @@ class FrontendController extends Controller
 	 */
 	public function index()
 	{
-        Debugbar::disable();
 		return view('frontend.index');
 	}
 
@@ -26,7 +25,6 @@ class FrontendController extends Controller
 	 */
 	public function subscribe(Request $request)
 	{
-        Debugbar::disable();
         Mail::send('emails.subscribe', ['email' => $request->email], function ($m) use ($request) {
             $m->from($request->email, 'Your Application');
             $m->to('adele@digital-picnic.email', 'lewis')->subject('New UP subscription!');
