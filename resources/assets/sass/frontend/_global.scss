@@ -4,29 +4,46 @@
   border-radius:0;
 }
 
+
 .up-logo:hover {
     background: transparent !important;
 }
+.navbar-default .navbar-nav > li > a {
+  color: $green3 !important;
+  &:hover {
+    background: $green3 !important;
+    color: $orange !important;
+  }
+}
+
 
 .wind-farm {
   max-height: 220px;
   max-width: 100%;
 }
-
-
-#navbar-primary .navbar-nav {
-  //  background: #ededed;
-  width: 100%;
-  text-align: center;
-  > li {
-    display: inline-block;
-    float: none;
-    > a {
-      padding-left: 30px;
-      padding-right: 30px;
-    }
-  }
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  display: block;
 }
+nav {
+  background: transparent !important;
+}
+
+//#navbar-primary .navbar-nav {
+//  //  background: #ededed;
+//  width: 100%;
+//  text-align: center;
+//  > li {
+//    display: inline-block;
+//    float: none;
+//    > a {
+//      padding-left: 30px;
+//      padding-right: 30px;
+//    }
+//  }
+//}
 
 
 

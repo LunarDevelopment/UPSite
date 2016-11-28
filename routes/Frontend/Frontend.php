@@ -9,6 +9,14 @@ Route::get('macros', 'FrontendController@macros')->name('macros');
 
 Route::post('subscribe', 'FrontendController@subscribe')->name('subscribe');
 
+
+Route::get('/water', 'FrontendController@index')->name('index');
+Route::get('/gas', 'FrontendController@index')->name('index');
+Route::get('/electricity', 'FrontendController@index')->name('index');
+Route::get('/contact', 'FrontendController@index')->name('index');
+Route::get('/about', 'FrontendController@index')->name('index');
+
+
 Route::group(['namespace' => 'Promotions', 'as' => 'promos.'], function() {
     /* Rollover promotion of companies who are paying too much from inactivity */
     Route::get('rollover', 'PromotionsController@rollover')->name('rollover');
