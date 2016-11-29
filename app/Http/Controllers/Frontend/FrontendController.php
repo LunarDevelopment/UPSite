@@ -25,11 +25,11 @@ class FrontendController extends Controller
 	 */
 	public function subscribe(Request $request)
 	{
-        Mail::send('emails.contact', ['email' => $request->email], function ($m) use ($request) {
+        Mail::send('emails.subscribe', ['email' => $request->email], function ($m) use ($request) {
             $m->from($request->email, 'UP Subscription');
             $m->to('lewis@digital-picnic.email', 'lewis')->subject('New UP subscription!');
         });
-        return redirect(route('frontend.index'))->withFlashSuccess('Thanks, we\'ll be in touch soon.');
+        return redirect()->back()->withFlashSuccess('Thanks, we\'ll be in touch soon.');
 
 	}
 	/**
