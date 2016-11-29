@@ -23,7 +23,13 @@ return [
         'login' => 'Login',
         'macros' => 'Macros',
         'register' => 'Register',
-
+        'gas' => 'Gas',
+        'electricity' => 'Electricity',
+        'water' => 'Water',
+        'ump' => 'Utility Management Plan',
+        'about' => 'About',
+        'contact' => 'Contact',
+        'register' => 'Register',
         'user' => [
 			'account' => 'My Account',
             'administration' => 'Administration',

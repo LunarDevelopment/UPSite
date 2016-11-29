@@ -8,13 +8,15 @@ Route::get('/', 'FrontendController@index')->name('index');
 Route::get('macros', 'FrontendController@macros')->name('macros');
 
 Route::post('subscribe', 'FrontendController@subscribe')->name('subscribe');
+Route::post('contact', 'FrontendController@contact')->name('contact');
 
 
-Route::get('/water', 'FrontendController@index')->name('index');
-Route::get('/gas', 'FrontendController@index')->name('index');
-Route::get('/electricity', 'FrontendController@index')->name('index');
-Route::get('/contact', 'FrontendController@index')->name('index');
-Route::get('/about', 'FrontendController@index')->name('index');
+Route::get('/water', 'PagesController@water')->name('water');
+Route::get('/gas', 'PagesController@gas')->name('gas');
+Route::get('/electricity', 'PagesController@electricity')->name('electricity');
+Route::get('/utility-management-plan', 'PagesController@ump')->name('ump');
+Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::get('/about', 'PagesController@about')->name('about');
 
 
 Route::group(['namespace' => 'Promotions', 'as' => 'promos.'], function() {

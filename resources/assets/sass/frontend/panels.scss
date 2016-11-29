@@ -7,56 +7,88 @@
   border-radius: 0;
   box-shadow: none;
   padding: 60px 120px;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $green;
   }
 }
 
 .panel-default {
   border-top: 8px $green solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $green;
   }
 }
 
 .panel-success {
   border-top: 8px $green solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $green;
   }
 }
 
 .panel-primary {
   border-top: 8px $blue solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $blue;
   }
 }
 
 .panel-warning {
   border-top: 8px $orange solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $orange;
   }
 }
 
 .panel-danger {
   border-top: 8px $pink solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $pink;
   }
 }
 
 .panel-turquoise {
   border-top: 8px $turquoise solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $turquoise;
   }
 }
 
 .panel-yellow {
   border-top: 8px $yellow solid;
+  h2, h3, h4, h5 {
+    text-align: center;
+  }
   h1 {
+    text-align: center;
     color: $yellow;
   }
 }

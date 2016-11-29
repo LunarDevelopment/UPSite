@@ -2,11 +2,11 @@
 
 @section('content')
 
-    <div class="jumbotron">
-        <h2>We've had an idea!</h2>
-        <p>When it comes to managing the utilities for your business, we understand it's no picnic, but we're here to change that! Our team are here to support the management of your utilities - we'll help you reduce your energy consumption and help you to take full control of your utility spend.</p>
-        <p>So, are you ready to save time and money?</p>
-        <p>We're currently charging up our new website, but if you want to be the first to take advantage of our services, sign up below. Alternatively, you can give us a call on <a href="tel:01912359569">0191 235 9569</a>.</p>
+    <div class="panel">
+        <h1>Welcome to Utility Picnic!</h1>
+        <p>When it comes to managing the utilities for your business, we understand it's no Picnic, but we're here to change that!</p>
+        <p>From procurement to consumption, our team will help save you time, money and effort. Our solutions are designed to to give you full control of your utility spend, with our services helping you reduce your energy consumption throughout your contract.</p>
+        <p>Take a look at how we can help you</p>
 
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
@@ -43,7 +43,4 @@
         </div>
     </div>
 
-    <div>
-        <img class="wind-farm " src="img/website/windfarm.png" />
-    </div>
 @endsection

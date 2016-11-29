@@ -1,6 +1,5 @@
-<div class="container-fluid footer-city">
-    <div class="footer-hill"></div>
-</div>
-<div class="footer-grass">
-
+<div class="row">
+    <div class="col-md-12">
+        <img class="wind-farm " src="img/website/windfarm.png" />
+    </div>
 </div>
