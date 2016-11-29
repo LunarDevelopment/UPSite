@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="{{route('frontend.index')}}">
+            <a class="brand shadowfilter" href="{{route('frontend.index')}}">
                     <img id="logo-navbar-middle"
                          src="img/website/Utility-Picnic-Logo.png"
                          onmouseout="this.src='img/website/Utility-Picnic-Logo.png'"

@@ -8399,6 +8399,14 @@ button.close {
   margin: 0;
   border-radius: 0; }
 
+.shadowfilter {
+  -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.8));
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear; }
+
+.shadowfilter:hover {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(255, 254, 0, 0.8)); }
+
 .up-logo:hover {
   background: transparent !important; }
 
@@ -9152,8 +9160,16 @@ input[type="checkbox"],
   border: none;
   border-top: 8px #72AC42 solid;
   border-radius: 0;
-  box-shadow: none;
-  padding: 60px 120px; }
+  box-shadow: none; }
+  @media screen and (max-width: 768px) {
+    .panel {
+      padding: 10px 20px; } }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .panel {
+      padding: 30px 60px; } }
+  @media screen and (min-width: 992px) {
+    .panel {
+      padding: 60px 120px; } }
   .panel h2, .panel h3, .panel h4, .panel h5 {
     text-align: center; }
   .panel h1 {
@@ -9321,15 +9337,15 @@ input[type="checkbox"],
     margin-top: 20px;
     margin-bottom: 35px; }
 
-.home .panel {
-  height: 700px; }
-  .home .panel h1 {
-    margin-bottom: 26px;
-    margin-top: 0px; }
-  .home .panel li {
-    font-weight: 200; }
-  .home .panel p {
-    margin-bottom: 26px; }
+.home .panel h1 {
+  margin-bottom: 26px;
+  margin-top: 0px; }
+
+.home .panel li {
+  font-weight: 200; }
+
+.home .panel p {
+  margin-bottom: 26px; }
 
 .home .full-height {
   padding-top: 8%;
